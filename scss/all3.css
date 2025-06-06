@@ -157,9 +157,6 @@ body {
 .container .containerAll .se1pM, .container .containerAll .se2pM, .container .containerAll .se3pM, .container .containerAll .se4pM {
   display: none;
 }
-.container .containerAll img {
-  margin: 20px 0 20px 0;
-}
 .container .containerAll p {
   margin-bottom: 25px;
   line-height: 1.5;
@@ -240,7 +237,7 @@ body {
 
 @media (max-width: 767px) {
   body {
-    width: 375px;
+    width: 100%;
   }
   .maincontainer {
     width: 100%;
@@ -275,17 +272,17 @@ body {
   .content1 .se1-2 {
     width: 375px;
     height: 252px;
+    margin-left: 0;
   }
   .container {
     width: 375px;
     height: auto;
-    margin-left: 5px;
-    margin-right: 5px;
     align-items: center;
     justify-content: center;
   }
   .container .containerAll {
     justify-content: center;
+    align-items: center;
     width: 375px;
     padding-left: 3px;
   }
@@ -296,8 +293,8 @@ body {
     display: block;
   }
   .container .containerAll img {
-    width: 370px;
-    height: 370px;
+    width: 100%;
+    height: auto;
   }
   .container .containerAll h2 {
     width: 351px;
@@ -308,6 +305,7 @@ body {
   }
   .container .containerAll h5 {
     width: 351px;
+    margin-left: 0;
   }
   .container .containerAll ul {
     width: 351px;
@@ -331,7 +329,7 @@ body {
     justify-content: center;
   }
   .container .content2 .border {
-    width: 329px;
+    width: 300px;
   }
   .lastcontent .content7 {
     display: none;

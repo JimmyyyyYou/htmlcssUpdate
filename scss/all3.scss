@@ -148,9 +148,6 @@ body{
         .se1pM, .se2pM, .se3pM, .se4pM{
             display: none;
         }
-        img{
-            margin: 20px 0 20px 0;
-        }
         p{
             margin-bottom: 25px;
             line-height: 1.5;
@@ -231,7 +228,7 @@ body{
 //* RWD手機版面
 @media (max-width: 767px) {
     body{
-        width: 375px;
+        width: 100%;
     }
     .maincontainer{
         width: 100%;
@@ -265,18 +262,18 @@ body{
         .se1-2{
             width: 375px;
             height: 252px;
+            margin-left: 0;
         }
     }
     .container{
         width: 375px;
         height: auto;
-        margin-left: 5px;
-        margin-right: 5px;
         align-items: center;
         justify-content: center;
         
         .containerAll{
             justify-content: center;
+            align-items: center;
             width: 375px;
             padding-left: 3px;
             .se1pD, .se2pD, .se3pD, .se4pD{
@@ -286,8 +283,8 @@ body{
                 display: block;
             }
             img{
-                width: 370px;
-                height: 370px;
+                width: 100%;
+                height: auto;
             }
             h2{
                 width: 351px;
@@ -298,6 +295,7 @@ body{
             }
             h5{
                 width: 351px;
+                margin-left: 0;
             }
             ul{
                 width: 351px;
@@ -322,7 +320,7 @@ body{
         align-items: center;
         justify-content: center;
         .border{
-            width: 329px;
+            width: 300px;
         }
         }
     }
